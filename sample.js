@@ -2,32 +2,32 @@
 // Arrays , String , Maps , Sets]
 
 //Array 
-let arr = ['nafi','arun','joe']
-for (let z of arr){
-    console.log(z)
+let students = ['nafi','arun','joe']
+for (let student of students){
+    console.log(student)
 }
 
 // string
-let stri = "hello"
-for (let x of stri){
-    // console.log(x)
-    console.log(stri[1])
+let message = "hello"
+for (let x of message){
+    console.log(x)
+    //console.log(message[1])
 }
 
 //I will post after studiying Maps and Sets examples 
 
 //for in loop [for...in loop is used to iterate through the keys (property names) of an object.]
 //object
-var stud = {
+var student = {
     name: "jhon",
     age : 25,
     course: "it"
 }
-console.log(stud);
+console.log(student);
 
-for (var y in stud){
-    console.log(y);
-    //console.log(stud[y]);
+for (var key in student){
+    console.log(key);
+    //console.log(student[key]);
 }
 
 
