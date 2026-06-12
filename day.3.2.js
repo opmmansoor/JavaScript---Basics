@@ -1,5 +1,5 @@
-//Array Search Methods
-//1. indexOf()
+//Array Search Methods [ Array search methods are used to find elements in an array. ]
+//1. indexOf()  [ returns the first index of a specified element.]
 let fruits = ["Apple","Mango","Orange", "Mango"];
 console.log(fruits.indexOf("Mango"));
 
