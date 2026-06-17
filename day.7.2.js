@@ -9,3 +9,5 @@ console.log(localStorage.getItem("name"));
 //Session Storage
 sessionStorage.setItem("name", "Jabir");
 console.log(sessionStorage.getItem("name"));
+
+console.log("Hey")
