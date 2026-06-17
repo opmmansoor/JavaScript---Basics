@@ -52,7 +52,7 @@ function greets(city, country) {
 }
 
 let person = {
-    name: "Mansoor"
+    name: "shyam"
 };
 
 greets.apply(person, ["Calicut", "India"]);
