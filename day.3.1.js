@@ -1,7 +1,9 @@
 //Array Methods
+//Array methods are built-in functions used to perform operations on arrays
 
 //1.Array slice() [ extracts a portion of an array and returns a new array.
 // It does not change the original array.]
+//[ start,length -->>> ]
 let fruits = ["Apple", "Orange", "Mango", "Grapes"];
 console.log(fruits.slice(0,3));
 
@@ -17,7 +19,7 @@ let fruitss = ["Apple", "Orange", "Mango"];
 console.log(fruitss.toString());
 
 
-//4. at()  [Returns the element at a specific index.]
+//4. at()  [ Returns the element at a specific index ]
 let animals = ["dog","cat","cow","rabbit"];
 console.log(animals.at(3));
 
