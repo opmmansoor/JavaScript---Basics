@@ -1,11 +1,29 @@
+//String in JavaScript [ A string is a sequence of characters used to store text.]
+/*Strings are written inside:
+" " double quotes
+' ' single quotes
+` ` backticks*/
+
+let person = "Anandu";
+let town   = 'calicut';
+let title  = `superst`;
+console.log(person," ,", town, "," ,title);
+ 
+
 //for of loop [ The for...of loop is used to iterate through the values of an iterable object such as:
 // Arrays , String , Maps , Sets]
 
 //Array 
-let students = ['nafi','arun','joe']
-for (let student of students){
+let Students = ['nafi','arun','joe']
+for (let student of Students){
     console.log(student)
 }
+//b.
+let fruits = ["apple","orange","banana","mango"];
+for (let fruit of fruits){
+    console.log(fruit);
+}
+
 
 // string
 let message = "hello"
@@ -18,6 +36,7 @@ for (let x of message){
 
 //for in loop [for...in loop is used to iterate through the keys (property names) of an object.]
 //object
+//a.
 var student = {
     name: "jhon",
     age : 25,
@@ -29,6 +48,21 @@ for (var key in student){
     console.log(key);
     //console.log(student[key]);
 }
+//b.
+let member = {
+    name : "allus",
+    age : 25, 
+    course : "IT"
+}
+for (let list in member){
+    console.log(list);
+}
+
+//ARRAY [ index numbers ]
+let marks =[12,65,45,58];
+for(let subject in marks){
+    console.log(subject);
+}
 
 
 //SCOPE [ “A variable can work only in some places. That area is called scope.” ]
@@ -37,7 +71,6 @@ var name = "Anas";
 function show(){
     console.log(name);
 }
-
 show();
 console.log(name);
 
