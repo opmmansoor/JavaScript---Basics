@@ -54,7 +54,7 @@ let member = {
     age : 25, 
     course : "IT"
 }
-for (let list in member){
+for (let list in member){n
     console.log(list);
 }
 
