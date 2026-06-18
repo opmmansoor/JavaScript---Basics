@@ -1,5 +1,5 @@
 //String Search Methods
-
+//used to find,check and locate text inside a STRING
 
 //1. indexOf()  [Returns the first position (index) of a specified value]
 let text = "Hello World hai World";
@@ -8,7 +8,7 @@ console.log(text.indexOf("Java"));
 
 
 //2. lastIndexOf() [Returns the last occurrence of a value.]
-let texts = "what is th is";
+let texts = "what is this.. it is a castel?";
 console.log(texts.lastIndexOf("is"));
 
 
@@ -17,7 +17,7 @@ let call = "Hai Happy Day";
 console.log(call.search('Happy'));
 
 
-// 4. match() [ Returns matched values from a string]
+// 4. match() [ Returns matched values from a string and return as array]
 let message = "I love JavaScript";
 console.log(message.match("Script"));
 
@@ -47,8 +47,10 @@ console.log(tips.endsWith("Script"));
 Template Literals
 (`  `) backticks      ${} Interpolation
 Template Literals are a way to create strings using backticks (` `) instead of single quotes (' ') or double quotes (" "). */ 
+// (`  `) This symbol is called a backtick.
 
-let name = "Mansoor";
+//normal STRING
+let name = `jhon`;
 let age = 20;
 console.log(`My name is ${name} and I am ${age} years old`);
 
