@@ -27,13 +27,14 @@ console.log(...numbers);
 //Combine Arrays
 let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
-let result = [...arr1, ...arr2];
+//let result = [...arr1, ...arr2];
+result = arr1.concat(arr2);
 console.log(...result);
 
 //object
 //a
 let student = {
-    name: "Mansoor",
+    name: "Habeeb",
     age: 22
 };
  let callStudent = {
@@ -56,6 +57,7 @@ let newStudent = {
 console.log(newStudent);
 
 
- //m a n s o o r
+//STRING
+//m a n s o o r
 var name = "mansoor"
 console.log(...name);
