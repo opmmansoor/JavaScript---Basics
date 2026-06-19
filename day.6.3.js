@@ -51,11 +51,14 @@ function greets(city, country) {
     console.log(this.name + " " + city + " " + country);
 }
 
-let person = {
+let person1st = {
     name: "shyam"
 };
 
-greets.apply(person, ["Calicut", "India"]);
+let person2nd = {
+    name: "Athul"
+};
+greets.apply(person2nd, ["Calicut", "India"]);
 
 
 //5. bind() Method
