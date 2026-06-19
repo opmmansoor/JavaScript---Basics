@@ -6,6 +6,12 @@ let fruits = ["Apple", "Orange", "Mango"];
 let [first, second, third] = fruits;
 console.log(first);
 
+//b.
+let animals = ["cat","dog","rabbit","lion"];
+let [one,two,three,four] = animals
+console.log(three);
+
+
 
 //2. Object Destructuring  [ extract object properties into variables based on their property names."]
 
@@ -15,3 +21,5 @@ let student = {
 };
 let { name, age } = student;
 console.log(name);
+console.log(age);
+
