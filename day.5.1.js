@@ -64,8 +64,8 @@ console.log(add(5));
 
 
 //6. IIFE (Immediately Invoked Function Expression)
-//
-(function() {
+//A function that executes immediately after it is created,
+(function sub () {
     console.log("Hello");
 })();
 
